@@ -23,6 +23,9 @@ print(lista_aluno)
 
 #Dicionários
 
+#não é possível acessar os dados do dicionário pelo index
+#mais fácil de identificar do que se trata determinada variável do que usando a lista pois cada dado terá o seu nome
+
 dict_alunos = {'nome':'Thayse','sobrenome':'Sousa','idade':15,'lista_notas':[10,8,6,4]}
 dict_alunos2 = {'nome':'Marina','sobrenome':'Cristina','idade':22,'lista_notas':[10,8,6,4]}
 lista = [dict_alunos,dict_alunos2]
