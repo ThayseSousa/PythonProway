@@ -23,6 +23,7 @@ contador = 0
 #     print('Reprovado')
 
 #Exemplo com 30 notas
+
 lista = []
 
 num = int(input('Digite o numero de notas que irá cadastrar: '))
