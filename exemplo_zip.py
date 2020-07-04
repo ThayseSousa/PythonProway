@@ -1,10 +1,10 @@
 arquivo = open('cadastro.txt', 'r')
+
 lista = []
 for pessoa in arquivo:
     pessoa = pessoa.strip()
     pessoa = pessoa.split(';')
     lista.append(pessoa)
-
 arquivo.close()
 
 chaves = ["id","nome","idade","sexo","email","telefone"]
