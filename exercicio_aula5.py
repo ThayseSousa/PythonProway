@@ -32,19 +32,27 @@ print (lista2)
 # A taxa é 0.03
 # Os valores devem ter 2 casas após a virgula
 
-# def jur_composto(tempo,capital,juros):
-#     taxa = taxa/100
-#     montante = capital * (1+ taxa)** tempo
-#     return round(montante,2)
+def jur_composto(tempo,capital,juros):
+    taxa = juros/100
+    montante = capital * (1+ taxa)** tempo
+    return round(montante,2)
 
 tempo = [x for x in range(100)]
 taxa = 3/100
 montante = [round(100 * (1 + 0.03) ** t,2) for t in tempo]
 # ou
-# montante = [jur_composto(t,100,3) for t in tempo]
+montante2 = [jur_composto(t,200,3) for t in tempo]
 
 tam_montante = len(montante)
 
 if len(tempo) == tam_montante:
-    plt.plot(tempo,montante)
+    plt.plot(tempo,montante,montante2)
     plt.show()
+
+
+# 3) Crie uma lista de 0 a 1000 com números que sejam 
+# multiplos de 2 e multiplos de 3
+
+# 5) Abra o arquivo cadastro2.txt
+# Com o list comprehension trate as string e converta para lista.
+# Salve as listas em uma lista de cadastros.
