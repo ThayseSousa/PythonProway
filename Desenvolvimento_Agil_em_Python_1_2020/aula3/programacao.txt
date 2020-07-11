@@ -1,0 +1,12 @@
+#Break
+#Continue
+Verdadeiro, Falso E Nulo
+Funções
+Return Versos Side Effects
+Escopo De Nomes
+Intervalo De Strings
+
+
+** // %
+logicos
+#comparação

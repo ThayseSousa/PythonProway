@@ -1,0 +1,31 @@
+Python 3.8.2 (default, Apr 27 2020, 15:53:34) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> def temp(seq:str) -> int:
+	A = seq.count('A')
+	T = seq.count('T')
+	C = seq.count('C')
+	G = seq.count('G')
+	Tm = (2*(A+T))+(4*(C+G))
+	print(f"A: {A}\nT: {T}\nC: {C}\nG: {G}\nTm = (2*({A}+{T}))+(4*({C}+{G}))\nTm = (2*({A+T}))+(4*({C+G}))\nTm = {(2*(A+T))}+({4*(C+G)})\nTm: {Tm}")
+
+	
+>>> temp('ATGCTAGTCAGATCATGAC')
+A: 6
+T: 5
+C: 4
+G: 4
+Tm = (2*(6+5))+(4*(4+4))
+Tm = (2*(11))+(4*(8))
+Tm = 22+(32)
+Tm: 54
+>>> temp('GCATACTGGACCATGAGCC')
+A: 5
+T: 3
+C: 6
+G: 5
+Tm = (2*(5+3))+(4*(6+5))
+Tm = (2*(8))+(4*(11))
+Tm = 16+(44)
+Tm: 60
+>>> 

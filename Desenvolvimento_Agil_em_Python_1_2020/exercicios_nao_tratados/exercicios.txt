@@ -1,0 +1,15 @@
+https://www.programacaoprogressiva.net/2019/10/exercicios-basicos-de-perl-resolvidos-e-codigo-comentado.html
+1. Crie um script que pede um número ao usuário e mostre o dobro dele.
+
+2. Crie um script que pede um número ao usuário e mostre seu quadrado.
+
+3. Crie um script que pede o raio de uma circunferência e exiba o diâmetro, comprimento da circunferência e a área do círculo.
+
+4. Crie um script em Perl que solicita ao usuário duas notas e exibe a média.
+
+5. Faça o mesmo do exercício anterior, mas com 3 notas.
+
+6. Faça um script que simula uma calculadora, em Perl. Ela deve pedir dois números ao usuário e em seguida deve exibir o resultado da soma, subtração, multiplicação, divisão, média e o resto da divisão do primeiro pelo segundo.
+
+7. Crie dois scripts, um que recebe a temperatura em Celsius e converte para Fahrenheit, e outro que faça o contrário. As fórmulas matemáticas são:
+f=9/5c+32  c=5/9(f-32)

@@ -1,0 +1,7 @@
+Objetos
+Formatando String
+Introspecção
+Geradores
+Transposição Com O Método Zip
+List Comprehension
+Generator Expression
